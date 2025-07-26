@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.jsonl
+*.json
+!requirements.txt
+!package.json
+textfiles/
+temp/
+tmp/
+
+# Logs
+*.log
+
+# Test outputs
+test_output/
+results/
+
+# AWS
+.aws/
